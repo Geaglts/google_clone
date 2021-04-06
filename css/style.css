@@ -25,10 +25,20 @@ header nav .nav-right-container {
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
 nav .nav-right-container a {
     color: #000000;
     margin-right: 10px;
+}
+
+nav .nav-right-container .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
 }
